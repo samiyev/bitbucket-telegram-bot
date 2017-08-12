@@ -13,9 +13,8 @@ export class Controller {
             await this.counter.open();
 
             let { repositories } = await this.bitbucket.getRepositories();
-            console.log(repositories.length);
-            for (let repo of repositories) {
 
+            for (let repo of repositories) {
                 let { count } = await this.bitbucket.getEventsCount(repo);
                 let { skip, limit } = await this.counter.revise(repo, count);
 

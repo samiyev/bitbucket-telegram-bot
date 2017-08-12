@@ -26,7 +26,6 @@ var Controller = (function () {
                         return [4 /*yield*/, this.bitbucket.getRepositories()];
                     case 3:
                         repositories = (_d.sent()).repositories;
-                        console.log(repositories.length);
                         _i = 0, repositories_1 = repositories;
                         _d.label = 4;
                     case 4:
