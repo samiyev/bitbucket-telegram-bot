@@ -1,0 +1,38 @@
+{
+  "name": "@samiyev/bitbucket-telegram-bot",
+  "version": "1.0.3",
+  "description": "Bitbucket updates sender to telegram channel.",
+  "main": "build/",
+  "dependencies": {
+    "iconv-lite": "^0.4.18",
+    "jsonfile": "^3.0.1",
+    "node-telegram-bot-api": "^0.27.1",
+    "tslib": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.0",
+    "typescript": "^2.3.0",
+    "source-map-support": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiyev/bitbucket-telegram-bot.git"
+  },
+  "keywords": [
+    "bitbucket-rest-api",
+    "bitbucket",
+    "telegram-bot",
+    "bitbucket-bot",
+    "git-bot",
+    "bitbucket-daemon"
+  ],
+  "author": "Fozilbek Samiyev <fozilbek.samiyev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samiyev/bitbucket-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/samiyev/bitbucket-telegram-bot#readme"
+}

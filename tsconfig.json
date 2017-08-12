@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "noEmitHelpers": true,
+    "importHelpers": true,
+
+    "outDir": "build",
+
+    "declaration": true,
+    "declarationDir": "typings",
+
+    "lib": [
+      "es6"
+    ],
+
+    "types": [
+      "node", "mongodb"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

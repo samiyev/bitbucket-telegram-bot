@@ -1,0 +1,9 @@
+export const node = 'node';
+export const user = 'user';
+export const event = 'event';
+export const count = 'count';
+export const events = 'events';
+export const repository = 'repository';
+export const created_on = 'created time';
+export const description = 'description';
+export const utc_created_on = 'utc created time';
