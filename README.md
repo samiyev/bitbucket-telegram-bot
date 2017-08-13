@@ -70,7 +70,7 @@ const bitbucket = {
 
 const telegram = {
     // token make in Botfather telegram.
-    token: '417091793:AAFihPEqfWK0OcQRthCMjmTtKkpn4Y6XrmQ',
+    token: '417095412:AAFihPEqfWK0OcQRgwaawgsfzqmTtKkpn4Y6XrmQ',
 
     // public channel id
     chat_id: -1001072411791
