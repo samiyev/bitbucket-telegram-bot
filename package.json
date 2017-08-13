@@ -1,6 +1,6 @@
 {
   "name": "@samiyev/bitbucket-telegram-bot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bitbucket updates sender to telegram channel.",
   "main": "build/",
   "dependencies": {
